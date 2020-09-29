@@ -1,0 +1,18 @@
+Package: lmehelp
+Type: Package
+Title: Convenience Functions for Designing Complex Experiments and Fitting Linear Mixed Models
+Version: 0.0.1
+Author: Simon S. Riley
+Maintainer: Simon S. Riley <simon.riley@ufl.edu>
+Description: This package provides utilities for generating ANOVA keyouts and calculating containment 
+  degrees of freedom for (almost) any, arbitrarily complex treatment and design structure, with the aim
+  of assisting students in understanding the implications of experimental design on statistical power   
+  and correcting the denomonator degrees of freedom in lme models with crossed random effects.
+License: CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives)
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr
+Suggests:
+  agridat
+RoxygenNote: 7.1.0
